@@ -23,13 +23,6 @@ let App = class extends React.Component {
     return true
   }
 
-  componentDidMount() {
-    // Test ID, Replace with your-admob-unit-id
-    // AdMobRewarded.setAdUnitID('ca-app-pub-1425926517331745/3923257478')
-    AdMobRewarded.setAdUnitID('ca-app-pub-1230120157844370/3171551888')
-    AdMobRewarded.setTestDeviceID('EMULATOR')
-    AdMobRewarded.addEventListener('rewardedVideoDidRewardUser', this.rewardUser)
-  }
   componentWillUnmount() {
     AdMobRewarded.removeAllListeners()
   }
