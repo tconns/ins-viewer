@@ -23,10 +23,6 @@ let App = class extends React.Component {
     return true
   }
 
-  componentWillUnmount() {
-    AdMobRewarded.removeAllListeners()
-  }
-
 
   render() {
     const { isReady } = this.state
