@@ -1,0 +1,37 @@
+{
+  "extends": ["airbnb"],
+  "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module",
+      "ecmaFeatures": {
+          "jsx": true
+      }
+  },
+  "plugins": ["react", "react-native"],
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true
+  },
+  "parser": "babel-eslint",
+  "rules": {
+      "semi": ["error", "never"],
+      "camelcase": "off",
+      "no-underscore-dangle": "off",
+      "no-nested-ternary": "off",
+      "react/jsx-filename-extension": "off",
+      "no-return-assign": "off",
+      "react/sort-comp": "off",
+      "react/no-multi-comp": "off",
+      "react/prop-types": "off",
+      "react/require-default-props": "warn",
+      "react/no-did-update-set-state": "off",
+      "react/no-array-index-key": "off",
+      "react/prefer-stateless-function": "off",
+      "jsx-a11y/no-static-element-interactions": "off",
+      "jsx-a11y/no-noninteractive-element-interactions": "off",
+      "jsx-a11y/click-events-have-key-events": "off",
+      "import/no-extraneous-dependencies": "off",
+      "no-plusplus": "off"
+  }
+}

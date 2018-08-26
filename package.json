@@ -1,0 +1,43 @@
+{
+  "name": "ins-viewer",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^8.2.2",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "eslint": "^4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-react-native": "^3.2.1",
+    "jest-expo": "28.0.0",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "expo": "28.0.0",
+    "mini-context-store": "^0.1.4",
+    "native-base": "^2.6.1",
+    "ramda": "^0.25.0",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.1.tar.gz",
+    "react-native-elements": "^1.0.0-beta5",
+    "react-native-html-parser": "^0.0.5",
+    "react-native-side-menu": "^1.1.3",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.3.1"
+  }
+}
