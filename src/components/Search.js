@@ -28,7 +28,7 @@ const Search = ({
       inputStyle={{
         color: '#2089dc',
       }}
-      placeholder="Past intagram link here"
+      placeholder="Paste intagram link here"
       value={text}
       onChangeText={onTextChange}
       controlled
