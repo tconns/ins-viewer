@@ -9,7 +9,7 @@ A mobile app for downloading instagram photos/videos.
 Get it on [Google Play Store](https://play.google.com/store/apps/details?id=com.thehappiestman.insviewer).
 
 ## Feature
-  1. Support download photos/video from profile link(12 recent posts photos/videos) and post link.
+  1. Support downloading photos/video from profile link(12 recent posts photos/videos) and post link.
 
   2. Support downloading  multi photos and video at once.
 
